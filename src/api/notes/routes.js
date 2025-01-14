@@ -17,7 +17,7 @@ const routes = (handler) => [
   {
     method: 'PUT',
     path: '/notes/{id}',
-    handler: handler.editNoteByIdHandler,
+    handler: handler.putNoteByIdHandler,
   },
   {
     method: 'DELETE',
